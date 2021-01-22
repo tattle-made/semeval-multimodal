@@ -4,7 +4,7 @@ This is a description of the experimental multimodal pipeline we built for the m
 
 #### Requirements
 
-A dataset of memes with multiple non-exclusive binary labels. The text from the memes should be extracted via OCR, labelled and stored in the same folder as the images. See [the SemEval training data](training_set_task3/) for reference. The code in the [notebook](SemEval-subtask3.ipynb) requires the data to be present in this format; if the format is different, the `read_data()` function in the notebook will need to be modified accordingly. The output of `df.head()` in the notebook shows what type of data and format is expected. 
+A dataset of memes with multiple non-exclusive binary labels. The text from the memes should be extracted via OCR, labelled and stored in the same folder as the images. See [the SemEval training data](data/training_set_task3/) for reference. The code in the [notebook](SemEval-subtask3.ipynb) requires the data to be present in this format; if the format is different, the `read_data()` function in the notebook will need to be modified accordingly. The output of `df.head()` in the notebook shows what type of data and format is expected. 
 
 #### Improving the pipeline
 
