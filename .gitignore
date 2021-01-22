@@ -1,0 +1,14 @@
+# Environment files
+.env 
+
+# Prediction files
+preds.txt
+
+# Python checkpoints and caches
+.ipynb_checkpoints/
+__pycache__
+*/__pycache__
+
+# Mac files
+.DS_Store
+*/.DS_Store
